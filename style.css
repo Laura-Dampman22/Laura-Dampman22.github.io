@@ -43,3 +43,31 @@ section h2 {
 section p {
     text-align: left;
 }
+
+/* Navigation */
+nav {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
