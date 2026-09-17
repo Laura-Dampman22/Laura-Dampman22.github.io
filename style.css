@@ -127,7 +127,7 @@ nav {
     margin-bottom: 15px;
 }
 
-/* View Project Button */
+/*===== View Project Button ===== */
 
 .project-link {
     display: inline-block;
@@ -150,4 +150,9 @@ nav {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+}
+/* ====== SECTION HEADINGS ====== */
+
+section h2 {
+    color: #4A628A;
 }
