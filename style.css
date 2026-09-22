@@ -8,19 +8,25 @@ body {
 }
 
 header {
+    background-image:url("images/portfolio-background.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     text-align: center;
-    padding: 60px 20px 40px;
-    background-color: white;
+    padding: 90px 20px;
 }
 
 header h1 {
     margin-bottom: 10px;
     font-size: 2.5rem;
+    color: #222;
 }
 
 header p {
     margin: 0;
     font-size: 1.1rem;
+    color: #222;
 }
 
 main {
